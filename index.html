@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>حاسبه الارباح
+        <span>$</span>
+        <p>اضف المنتج واحسب ارباحك بسهوله</p>
+    </h1>
+    <div class="pearant">
+        <div class="cards">
+            <p>اسم المنتج</p>
+            <input type="text" placeholder="iphone 17 pro:مثال" id="firest">
+            <p>رتبط صوره المنتج</p>
+            <input type="url" placeholder="htts/exmpale.com/img..ipg" id="wasat">
+            <p>سعر البيع</p>
+            <input type="number" placeholder="100:مثال" id="wasat2">
+            <p>سعر الشراء</p>
+            <input type="number" placeholder="160:مثال" id="foot">
+            <button onclick="chang()">اضافه المنتج وحساب الربح+</button>
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>الصورة</th>
+                    <th>المنتج</th>
+                    <th>سعر الشراء</th>
+                    <th>سعر البيع</th>
+                    <th>الربح</th>
+                    <th>الحاله</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
